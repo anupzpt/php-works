@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes" ?>
+<!DOCTYPE student[
+<!ELEMENT student (name, address, hobby, phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT hobby (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+]>
+<student>
+<name>Anu</name>
+<address>Chakrapath</address>
+<hobby>Drawing</hobby>
+<phone>9803865431</phone>
+</student>
